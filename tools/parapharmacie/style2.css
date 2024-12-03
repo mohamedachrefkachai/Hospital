@@ -1,0 +1,143 @@
+
+body {
+  font-family: Arial, sans-serif;
+   background-color: #fff;
+}
+
+center {
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color:transparent;
+  box-shadow: 8px 5px 5px#4AD489;
+}
+
+th,
+td {
+  border: 1px solid #4AD489 ;
+  padding: 10px;
+  text-align: left;
+  color:blanc;
+}
+
+th {
+
+  background-color:#4AD489 ;
+
+  
+}
+.table th {
+color:blanchedalmond;
+}
+img {
+  max-width: 50px;
+  height: auto;
+}
+
+form {
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color:#4AD489;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #4AD489;
+}
+
+nav {
+  background-color:transparent;
+  padding:30px;
+  position: relative;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top:5px;
+  right: 16px;
+}
+
+.menu li {
+  float: left;
+  margin-right: 40px;
+}
+
+.menu li a {
+  font-size: 20px;
+  text-align: center;
+  padding:20px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+  color:#4AD489;
+}
+
+.logo {
+  height:70px;
+  padding-right: 10px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+h1{
+color:#4AD489;  
+font-size:50px;
+}
+
+.abb {
+  /* Styles pour la classe abb */
+  text-decoration: none;
+  color: #fff;
+  background-color: #4AD489;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.abb:hover {
+  background-color: #138D75;
+}
+
+.abb2 {
+  /* Styles pour la classe abb2 */
+  text-decoration: none;
+  color: #fff;
+  background-color: #4AD489;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.abb2:hover {
+  background-color: #138D75;
+}
+.a{
+  /* Styles pour la classe abb2 */
+  text-decoration: none;
+
+  color:#4AD489;
+  padding: 0px 20px;
+  border-radius: 5px;
+}
+
+.a:hover {
+  background-color: #138D75;
+}
